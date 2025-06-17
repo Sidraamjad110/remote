@@ -1,0 +1,21 @@
+{
+
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "node deploy.js",
+    "build": "cd hostapp && npm install && npm run build && cd ../remote-app && npm install && npm run build",
+    "install-all": "cd hostapp && npm install && cd ../remote-app && npm install"
+
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  }
+}
+
+
+//testhjbnjhbj
